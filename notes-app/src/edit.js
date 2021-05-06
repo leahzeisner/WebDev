@@ -15,7 +15,7 @@ titleElement.addEventListener('input', (e) => {
         title: e.target.value,
     })
     timeElement.textContent = generateLastEdited(note.updatedAt)
-    
+    labelElement.textContent = '* Saved Automatically *'
 }) 
 
 bodyElement.addEventListener('input', (e) => {
